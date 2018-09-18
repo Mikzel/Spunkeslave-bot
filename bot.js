@@ -1,16 +1,22 @@
-const Discord = require('discord.js');
-const client = new Discord.client();
+const discord = require ('discord.js');
 
-client.on('ready', () => {
-    console.log('I am ready!');
-});
+var client = new discord.Client();
+
+const token = "NDU0MzM5NDM3MDI4MTc5OTY4.DikhtQ.5XS8TvGTmRutBmGOA4AvRWbVQZU";
+
+client.on ("ready", () => {
+    console.log ("SpunkeSlave er klar!");
+client.user.setActivity('Hentai', { type: 'WATCHING' });
+
+    answered = true;
+    cAnswer = "";
+    userAnswer = "";
+}); 
+
+if (msg.includes ("test")) {
+    message.reply ("DET VIRKER!");
+}
 
 
-    if (message.content.startsWith ("ping")) {
-        message.channel.send ("pong");
-    }
 
-      
-});
-
-client.login(process.env.BOT_TOKEN);
+client.login (token);
