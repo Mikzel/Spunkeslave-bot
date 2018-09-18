@@ -1,12 +1,14 @@
 {
-  "name": "spunkeslave",
+  "name": "Spunkeslave",
   "version": "1.0.0",
   "description": "",
-  "main": "bot.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node bot.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-   "dependencies": {
-   "discord.js": "^11.3.2",
-   }
- }
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
